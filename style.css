@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    background-color:#F2F3F5;
+}
+h2{
+    font-size: 2rem;
+}
+h1{
+    font-size: 46px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    color: rgb(110, 77, 131);
+}
+h3{
+    font-size:1.5rem;
+}
+.cursive{
+    font-family: cursive;
+}
+.palevioletred{
+    color: palevioletred
+}
+#article-title{
+    margin: 0 auto;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif, serif;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    border: 2px solid white;
+    position: relative;
+    top: 200px;
+    background-color: rgba(92,9,85,0.5);
+}
+.main ul{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    padding-left: 200px;
+}
+.main{
+    height: 700px;
+    background-image: url(images/orchids.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1,h2,h3{
+    min-width: 200px;
+    max-width: 500px;
+    font-family:cursive;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+}
+.main a{
+    display: block;
+    color: white;
+    font-size: 40px;
+    width:100%;
+    height:100%;
+    
+}
+.main li{
+    border-radius: 20px;
+    display: inline-block;
+    list-style: none;
+    max-width: 350px;
+    background-color:rgba(137, 56, 108, 0.78);
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+}
+#navbar{
+    min-height: 50px;
+    background-color: rgb(65,39,39);
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+#navbar a{
+    display:inline-block;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding-left: 16px;
+}
+#navbar a:hover{
+    background-color: rgb(255,107,107);
+    color:black;
+}
+.main li:hover{
+    background-color: rgba(168,36,36,0.9);
+}
+#introduction{
+    height: 100%;
+    padding-top:240px;
+    background-image: url(./images/bg_orchid.jpg);
+    background-size: cover;
+}
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+    background-color: rgba(0,0,0,0);
+    padding: 0 10px;
+}
+.card{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:#f2f2f2;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.25);
+}
+#species{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#species li{
+    display: inline-block;
+    width: 200px;
+    height: 240px;
+}
+#species h3{
+    position: absolute;
+    color:white;
+    background-color: rgba(0,0,0,0.25);
+    width: 200px;
+}
+.btn{
+    color:#fff;
+    background-color: rgba(137, 56, 108, 0.78);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(168,36,36,0.9)
+}
+#habitat img{
+    float: right;
+}
+#habitat{
+    background-color: rgba(0,0,0,.10);
+    height: 100%;
+}
+#media{
+    background-color:black;
+    height: 700px;
+}
+#media h2{
+    position: relative;
+    left: 200px;
+}
+video , iframe{
+    height:80%;
+    width:100%;
+}
